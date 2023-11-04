@@ -34,5 +34,10 @@ nav {
     padding-top: 2.8rem;
     padding-left: var(--padding);
     padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
