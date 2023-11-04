@@ -45,3 +45,9 @@ nav ul li {
     display: inline-block;
     margin: 0.8rem 1.5rem;
 }
+
+nav ul li a {
+    color: var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+}
