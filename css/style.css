@@ -43,4 +43,5 @@ nav {
 nav ul li {
     list-style-type: none;
     display: inline-block;
+    margin: 0.8rem 1.5rem;
 }
