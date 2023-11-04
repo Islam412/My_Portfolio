@@ -104,3 +104,17 @@ h4 {
     background-color: transparent;
     border: 2px solid var(--primarycolor);
 }
+
+.social {
+    margin-top: 3.5rem;
+}
+
+.social img {
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
