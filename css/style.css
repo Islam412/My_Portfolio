@@ -172,3 +172,20 @@ h4 {
     left: 420%;
 } */
 
+.about{
+    background-color: var(--bicolor-2);
+    padding: 2mer var(--padding);
+}
+
+.about {
+    background-color: var(--bgcolor-2);
+}
+
+.about .container-images {
+    width: 35%;
+}
+
+.about .container-images img {
+    width: 90%;
+}
+
