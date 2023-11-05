@@ -119,15 +119,15 @@ h4 {
 .social img:hover {
     transform: scale(1.2);
 }
-
-.container-images {
+/* 
+.home .container-images {
     position: relative;
     width: 200px;
     height: 200px;
 }
 
 
-.container-images img {
+.home .container-images img {
     position: absolute;
     bottom: 165%;
     left: 400%;
@@ -135,10 +135,34 @@ h4 {
     transition: bottom 1s, left 1s;
 }
 
-.container-images:hover .shape {
+.home .container-images:hover .shape {
     bottom: 150%;
 }
 
-.container-images:hover .pic {
+.home .container-images:hover .pic {
     left: 350%;
+} */
+
+.home .container-images {
+    width: 45%;
+    height: 90%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.home .container-images img {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s , left 1s;
+}
+
+.home .container-images:hover .shape {
+    bottom: 40px;
+}
+
+.home .container-images:hover .pic {
+    left: 45%;
 }
