@@ -213,3 +213,7 @@ h5{
     background-color: var(--bgcolor-1);
     padding: 2rem var(--padding);
 }
+
+.text-center {
+    text-align: center;
+}
