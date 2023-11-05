@@ -208,3 +208,8 @@ h5{
 .about .container-text {
     width: 35%;
 }
+
+.services {
+    background-color: var(--bgcolor-1);
+    padding: 2rem var(--padding);
+}
