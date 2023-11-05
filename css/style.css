@@ -31,6 +31,13 @@ span {
     color: var(--primarycolor);
 }
 
+p {
+    color: var(--secondaycolor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
 h2{
     font-size: 2.2rem;
     letter-spacing: 0.12rem;
@@ -90,6 +97,12 @@ h4 {
     font-size: 1.25rem;
     letter-spacing: 0.12rem;
     color: var(--secondaycolor);
+}
+
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
 }
 
 .btn {
@@ -174,11 +187,14 @@ h4 {
 
 .about{
     background-color: var(--bicolor-2);
-    padding: 2mer var(--padding);
 }
 
 .about {
     background-color: var(--bgcolor-2);
+    padding: 2mer var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .about .container-images {
@@ -189,3 +205,6 @@ h4 {
     width: 90%;
 }
 
+.about .container-text {
+    width: 35%;
+}
