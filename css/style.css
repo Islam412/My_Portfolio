@@ -217,3 +217,16 @@ h5{
 .text-center {
     text-align: center;
 }
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    background-color: var(--bgcolor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+}
+
