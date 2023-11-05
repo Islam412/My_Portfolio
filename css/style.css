@@ -230,3 +230,9 @@ h5{
     padding: 1.3rem 2rem;
 }
 
+.card i {
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--primarycolor);
+    margin: 2rem;
+}
