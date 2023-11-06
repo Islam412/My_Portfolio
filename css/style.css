@@ -125,7 +125,7 @@ h5{
 
 .social img {
     margin-right: 2rem;
-    width: 2.5rem;
+    width: 2.5rem;no
     transition: 0.4s;
 }
 
@@ -276,4 +276,32 @@ h5{
 
 .skill img {
     width: 70%;
+}
+
+footer {
+    padding: 2rem var(--padding);
+    background-color: var(--bgcolor-1);
+}
+
+footer .content-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .content-footer p {
+    color: var(--lightcolor);
+    text-align: center;
+    width: 500;
+    margin-top: 1rem;
+}
+
+footer .content-footer .end {
+    /* color: var(--primarycolor); */
+    margin-top: 1rem;
+}
+
+footer .content-footer .end a {
+    text-decoration: none;
 }
